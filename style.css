@@ -26,6 +26,16 @@ header {
     color: #735EFF;
 }
 
+header {
+    position: fixed;
+}
+
+.container {
+    margin-top: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .header_logo{
     position: absolute;
     width: 37px;
@@ -34,8 +44,13 @@ header {
     top: 9px;
 }
 
+.info {
+    color: whitesmoke;
+    padding-top: 18px;
+}
+
 .nav_log_in{
-    position: absolute;
+    position: fixed;
     width: 140px;
     height: 40px;
     left: 1397px;
@@ -50,7 +65,7 @@ header {
 }
 
 .nav_shop{
-    position: absolute;
+    position: fixed;
     width: 140px;
     height: 40px;
     left: 1341px;
@@ -82,6 +97,77 @@ header {
     text-transform: uppercase;
     font-size: 25px;
 }
+.pics .card{
+    border: solid whitesmoke 2px;
+    margin: 20px;
+}
+
+.pics img {
+    width: 300px;
+}
+
+.pics ul{
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+@media display and (max-width: 768px){
+    .flex{
+        display: flex;
+        flex-flow: column !important;
+    }
+}
+
+.markup-center{
+    align-items: center;
+}
+
+.table {
+    width: 80%;
+    max-width: 80%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #735EFF;
+}
+
+.table .table-head {
+    border-bottom: 2px solid #735EFF;
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+    background-color: white;
+}
+
+.table .table-item {
+    display: grid;
+    grid-template-columns: 2.5fr 2fr;
+}
+
+.table .table-row, h3 {
+    font-weight: bold;
+}
+
+.table h3 {
+    font-style: italic;
+}
+
+.table .table-item:nth-child(even) {
+    background-color: white;
+}
+
+.table .table-item:nth-child(odd) {
+    background-color: rgba(235, 235, 255, 0.9);
+}
+
+
 
 
 

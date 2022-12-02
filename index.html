@@ -5,7 +5,7 @@
     <title>Art</title>
     <meta name="description" content="портфолио художников">
     <meta name="keywords" content="художники, портфолио, рисование">
-    <link href="style.css", rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
 <body>
 
 <header>
-    <nav>
+    <nav class="navbar">
         <div>
             <img class="header_logo" src="Logo.png" alt="logo"/>
         </div>
@@ -33,59 +33,88 @@
 <div class="container">
     <div class="about">
         <h2>about</h2>
-        <p>Our site gives an opportunity to fella artists to express themselves while earning money and shearing ideas with each other
+        <p>Our site gives an opportunity to fella artists to express themselves while earning money and shearing ideas with each other <br>
             Also it gives an opportunity for customers to easily find suitable candidate to their projects</p>
-    </div>
-    <div class="info">
-        <div id="full-name">
+    <div class ="flex">
+        <div class="info">
+            <div id="full-name">
             <h2>Chosen Name</h2>
-        </div>
-        <div id="contact">
-            <p>Number: +7938918471937</p>
-            <p>Site: </p>
-        </div>
-        <div id="about">
-            <article>
-                Мои таланты помимо рисования:
-                Я знаю, что 2<sup>2</sup> = 4, а формула кислорода равна O<sub>2</sub>
-            </article>
-            <code>print("Я умею играть гимн россии на калькуляторе")</code>
-            <p>Some info</p>
+            </div>
+            <div id="contact">
+                <p>Number: +7938918471937</p>
+                <p>Site: </p>
+            </div>
+            <div id="about">
+                <article>
+                    Мои таланты помимо рисования:
+                    Я знаю, что 2<sup>2</sup> = 4, а формула кислорода равна O<sub>2</sub>
+                </article>
+                <code>print("Я умею играть гимн россии на калькуляторе")</code>
+                <p>Some info</p>
 
+            </div>
         </div>
 
-    </div>
+
     <div class="pics">
-        <ul>
+        <ul class="flex">
             <li>
                 <div class="card">
-                   <h3>картинка 1, антейку</h3>
                     <img class="img_in_gallery" src="images/gui1.jpg" alt="artwork"/>
                 </div>
             </li>
 
             <li>
                 <div class="card">
-                    <h3>картинка 2, антейку</h3>
-                    <img class="img_in_gallery" src="images/gui2.jpg" alt="artwork"/>
-                </div>
-            </li>
-
-            <li>
-                <div class="card">
-                    <h3>картинка 3, антейку</h3>
                     <img class="img_in_gallery" src="images/gui3.jpg" alt="artwork"/>
                 </div>
             </li>
 
-            <li>
-                <div class="card">
-                    <h3>картинка 4, антейку</h3>
-                    <img class="img_in_gallery" src="images/gui4.jpg" alt="artwork"/>
-                </div>
-            </li>
-        </ul>
+                <li>
+                    <div class="card">
+                        <img class="img_in_gallery" src="images/gui2.jpg" alt="artwork"/>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <img class="img_in_gallery" src="images/gui4.jpg" alt="artwork"/>
+                    </div>
+             </li>
+         </ul>
+        </div>
     </div>
+    </div>
+</div>
+<div class="table">
+    <div class="table-head">
+        <h3>Описание коммишена</h3>
+        <h3>Цена</h3>
+    </div>
+    <div class="table-body">
+        <div class="table-item">
+            <p class="table-row">Портрет</p>
+            <p>2000р</p>
+        </div>
+        <div class="table-item">
+            <p class="table-row">Один человек до талии</p>
+            <p>2800р</p>
+        </div>
+        <div class="table-item">
+            <p class="table-row">Один человек в полный рост</p>
+            <p>3000р</p>
+        </div>
+        <div class="table-item">
+            <p class="table-row">Простой фон</p>
+            <p>+1000р</p>
+        </div>
+        <div class="table-item">
+            <p class="table-row">Сложный фон</p>
+            <p>3000р</p>
+        </div>
+    </div>
+
+
 </div>
 </main>
 
@@ -95,7 +124,7 @@
             <section>
                 <a class="btn text-white btn-floating m-1"
                         style="background-color: #3b5998;"
-                        href="#!"
+                        href="#"
                         role="button"><i class="fab fa-facebook-f"></i></a>
 
             </section>
