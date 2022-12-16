@@ -28,6 +28,7 @@ header {
 
 header {
     position: fixed;
+    /*display: flex;*/
 }
 
 .container {
@@ -51,8 +52,8 @@ header {
 
 .nav_log_in{
     position: fixed;
-    width: 140px;
-    height: 40px;
+    width: 70px;
+    height: 26px;
     left: 1397px;
     top: 22px;
 
@@ -64,10 +65,18 @@ header {
     color: #735EFF;
 }
 
+.activepage{
+    color: white !important;
+}
+
+.highlight{
+    color: #3b5998;
+}
+
 .nav_shop{
     position: fixed;
-    width: 140px;
-    height: 40px;
+    width: 50px;
+    height: 26px;
     left: 1341px;
     top: 22px;
 
@@ -77,6 +86,10 @@ header {
     line-height: 20px;
 
     color: #735EFF;
+}
+
+.links{
+    list-style-type: none
 }
 
 .nav_profile{
@@ -167,6 +180,15 @@ header {
     background-color: rgba(235, 235, 255, 0.9);
 }
 
+.header_title_link{
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #735EFF;
+    text-decoration: none;
+}
 
 
 
