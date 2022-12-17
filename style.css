@@ -65,11 +65,11 @@ header {
     color: #735EFF;
 }
 
-.nav_timetable{
+.nav_todolist{
     position: fixed;
-    width: 100px;
+    width: 60px;
     height: 26px;
-    left: 1240px;
+    left: 1278px;
     top: 22px;
 
     font-family: 'Silkscreen', cursive;
