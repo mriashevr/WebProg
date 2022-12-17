@@ -65,6 +65,21 @@ header {
     color: #735EFF;
 }
 
+.nav_timetable{
+    position: fixed;
+    width: 100px;
+    height: 26px;
+    left: 1240px;
+    top: 22px;
+
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #735EFF;
+}
+
 .activepage{
     color: white !important;
 }
@@ -189,6 +204,9 @@ header {
     color: #735EFF;
     text-decoration: none;
 }
+
+/*  timetable */
+
 
 
 
