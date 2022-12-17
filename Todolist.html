@@ -5,12 +5,14 @@
     <title>Art</title>
     <meta name="description" content="портфолио художников">
     <meta name="keywords" content="художники, портфолио, рисование">
+    <link href="styletodo.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./Active.js"></script>
     <script type="text/javascript" src="./Common.js"></script>
+    <script type="text/javascript" type="module" src="Todolist.js"></script>
 </head>
 <body>
 
@@ -49,7 +51,7 @@
                     </a>
                 </li>
                 <li class="links-item">
-                    <a href="Todolist.html">
+                    <a href="./Todolist.html">
                         <a href="" class="nav_todolist">TO DO</a>
                     </a>
                 </li>
@@ -60,10 +62,20 @@
 
 
 <main>
-    <div class="container">
-       <h1>Личный кабинет</h1>
-    </div>
+    <div id="todolist" class="todo-container">
+        <div class="header2">
+        <h2>To Do List</h2>
+        <form class="todo" id="todo" onsubmit="newElement(); return false;">
+            <input type="text" id="Input" placeholder="Задача...">
+        </form>
+        </div>
+    <ul id="UL"></ul>
+    </div>>
+
+
+
 </main>
+
 
 
 <footer>
