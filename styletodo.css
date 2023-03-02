@@ -1,0 +1,47 @@
+.h2{
+    text-align: center;
+    color:#E1E7F7
+}
+
+.todo-container{
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.header2 {
+    background-color: #735EFF;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+#todolist ul{
+    margin: 0;
+    padding: 0;
+}
+
+#todolist ul li{
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+}
+
+#todolist ul li:hover {
+    background: #d1c5fc;
+}
+
+#todolist ul li .checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}

@@ -11,7 +11,6 @@ function mark_current_page() {
             console.log(navs[i]);
         }
 
-
     }
 }
 document.addEventListener("DOMContentLoaded", mark_current_page);
